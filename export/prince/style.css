@@ -1,4 +1,17 @@
+/*
+
+ Name: Austen PDF
+  Version: 1.0
+  Author: PressBooks (Book Oven Inc.)
+  Author URI: http://pressbooks.com
+  License: Creative Commons Attribution 2.0 Generic license
+  License URI: http://creativecommons.org/licenses/by/2.0/
+  Tags: basic, simple, serif fonts
+  Description: Named for English author Jane Austen, this is an traditional book theme, with serif fonts, that works well for fiction and simple-layout non-fiction.  
+  Copyright 2011-2013 Book Oven Inc. (PressBooks.com) support@pressbooks.com  
+  Reference documentation @see: http://www.princexml.com/doc/8.1/
 ================== */
+
 
 /* FONTS
 ===========	*/
@@ -1001,7 +1014,7 @@ p.bl_indent {
   margin-top: 20px;
   margin-bottom: 40px;
 }
-}
+
 hr.break-symbols {
   border: none;
   font-size: 1.1em;
