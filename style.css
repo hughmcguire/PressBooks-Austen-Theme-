@@ -93,6 +93,7 @@ text-indent: 2.5em;
 .entry-title {
 	margin: 100px 0;
 	text-align: center;
+	font-family: "Marcellus SC", "Times New Roman" serif;
 }
 .entry-title span {
 	display: none;
