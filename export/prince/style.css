@@ -1024,7 +1024,7 @@ hr.break-symbols {
 hr.break-symbols::after {
   display: block;
   content: "\2605\ \2605\ \2605\ ";
-  font-size: 12pt;
+  font-size: 10pt;
   text-align: center;
 }
 #title-page > .publisher {
