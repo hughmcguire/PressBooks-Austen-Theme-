@@ -21,12 +21,13 @@
   font-family: "Sorts Mill Goudy";
   font-weight: normal;
   font-style: normal;
+  src: url(../../fonts/SortsMillGoudy-Regular.ttf) format("truetype");
 }
 @font-face {
   font-family: 'Marcellus SC';
   font-weight: normal;
   font-style: normal;
-  src: url(../../../../symbionts/fonts/MarcellusSC-Regular.ttf) format("truetype");
+  src: url(../../fonts/MarcellusSC-Regular.ttf) format("truetype");
 }
 
 /* Override hierarchy. See: http://www.princexml.com/doc/8.1/pdf-bookmarks */
