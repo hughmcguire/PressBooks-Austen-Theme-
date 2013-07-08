@@ -1,4 +1,3 @@
- * CSS Version: 1.2
 ================== */
 
 /* FONTS
@@ -1002,7 +1001,6 @@ p.bl_indent {
   margin-top: 20px;
   margin-bottom: 40px;
 }
-.chapter-number{
   display: none;
 }
 hr.break-symbols {
