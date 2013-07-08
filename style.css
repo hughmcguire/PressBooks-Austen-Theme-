@@ -99,6 +99,7 @@ text-indent: 2.5em;
 .entry-title span {
 	display: none;
 	font-size: 0.875em;
+	font-weight: normal;
 }
 .entry-title span:after {
 	content: ".";
