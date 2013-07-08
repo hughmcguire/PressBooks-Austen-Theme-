@@ -454,7 +454,7 @@ hr.break-symbols {
 hr.break-symbols::after {
   display: block;
   content: "\066D";
-  font-size: 18pt;
+  font-size: 10pt;
   text-align: center;
 }
 table {
