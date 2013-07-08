@@ -1,68 +1,66 @@
 
 /*
 
-  Name: Austen
-  Version: 1.0
-  Author: PressBooks (Book Oven Inc.)
-  Author URI: http://pressbooks.com
-  License: Creative Commons Attribution 2.0 Generic license
-  License URI: http://creativecommons.org/licenses/by/2.0/
-  Tags: basic, simple, serif fonts
+  Theme Name: Austen
+  Theme URI: http://pressbooks.com
   Description: Named for English author Jane Austen, this is an traditional book theme, with serif fonts, that works well for fiction and simple-layout non-fiction.  
+  Author: PressBooks (Book Oven Inc.)
+  Version: 1.0
   Template: pressbooks-book
-  Copyright 2011-2013 Book Oven Inc. (PressBooks.com) support@pressbooks.com  
-  
-================== */
+ */
 
 
-
-
-*/
 
 @import url("../../plugins/pressbooks/themes-book/pressbooks-book/style.css");
+@import url(http://fonts.googleapis.com/css?family=Marcellus+SC|Sorts+Mill+Goudy:400,400italic|Marcellus&subset=latin,latin-ext);
 
 body {
 	font-family: "Sorts Mill Goudy", "Times New Roman" serif;
 	line-height: 1.5em;
+
 }
 a {
 	color: #00e;
 	text-decoration: none;
 
 }
-h1, h2, h3, h4, h5, h6 {
+/* h1, h2, h3, h4, h5, h6 {
 	font-family: "Sorts Mill Goudy", "Times New Roman" serif;
 	font-variant: normal;
+	text-align: left;
+}
+*/
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: "Sorts Mill Goudy", serif;
+	margin-top: 5px;
+	padding-bottom: 4px;
+	font-variant: normal;
+	
 }
 h1 {
-	font-weight: bold;
 	font-size: 1.3em;
+		
 }
 h1, h2 {
 	text-align: left;
-}
-h2 {
-	font-size: 1.2em;
-}
-h2, h3, h4 {
+	font-variant: small-caps;
+	font-weight: bold;
 	font-style: normal;
-}
-h3, h4 {
-	text-transform: uppercase;
-}
-h3, h5 {
-	text-indent: 2em;
+
 }
 
-p {
-font-size: 1em;
-line-height: 1.25em;
-margin: 0;
-text-align: justify;
+
+
+h3, h4, h5 {
+	font-style: italic;
+
+	
+
 }
-p + p {
-text-indent: 2.5em;
-}
+
+
+
 
 .back-matter p{
 	font-size: 1em;
@@ -96,11 +94,13 @@ text-indent: 2.5em;
 	text-align: center;
 	font-family: "Marcellus SC", "Times New Roman" serif;
 	font-variant: normal;
+	text-transform: uppercase;
 }
 .entry-title span {
 	display: none;
 	font-size: 0.875em;
 	font-weight: normal;
+	text-transform: uppercase;
 
 }
 .entry-title span:after {
@@ -111,16 +111,18 @@ text-indent: 2.5em;
 	line-height: 2em;
 	margin: -80px 0 100px 0px;
 	text-align: center;
-	text-transform: capitalize;
+    text-transform: uppercase;
 	font-family: "Marcellus SC", "Times New Roman" serif;
 	font-variant: normal;	
 	font-style: italic;
+	font-size: 0.95em;
 
 }
 .chapter_author {
 	margin: -70px 0 100px 0px;
 	text-align: center;
-	text-transform: capitalize;
+	
+
 	font-family: "Marcellus SC", "Times New Roman" serif;
 	font-variant: normal;	
 }
