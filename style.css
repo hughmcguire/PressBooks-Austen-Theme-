@@ -112,6 +112,7 @@ text-indent: 2.5em;
 	text-align: center;
 	text-transform: capitalize;
 	font-family: "Marcellus SC", "Times New Roman" serif;
+	font-variant: normal;	
 	font-style: italic;
 }
 .chapter_author {
@@ -119,6 +120,7 @@ text-indent: 2.5em;
 	text-align: center;
 	text-transform: capitalize;
 	font-family: "Marcellus SC", "Times New Roman" serif;
+	font-variant: normal;	
 }
 .chapter_subtitle + .chapter_author {
 	margin-top: -80px;
