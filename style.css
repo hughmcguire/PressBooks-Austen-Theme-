@@ -21,7 +21,7 @@
 @import url("../../plugins/pressbooks/themes-book/pressbooks-book/style.css");
 
 body {
-	font-family: "Sorts Mill Goudy", serif;
+	font-family: "Sorts Mill Goudy", "Times New Roman" serif;
 	line-height: 1.5em;
 }
 a {
