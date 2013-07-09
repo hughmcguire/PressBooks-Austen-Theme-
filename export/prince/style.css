@@ -60,7 +60,7 @@ h1, h2, h3, h4, h5, h6 {
 /* TOC */
 @page toc {
   @bottom {
-  font-family: "Marcellus SC","Times New Roman", serif;
+  font-family: "Marcellus SC", serif;
   content: counter(page, lower-roman);
   vertical-align: center;
   text-transform: lowercase;
@@ -256,7 +256,7 @@ h1, h2, h3, h4, h5, h6 {
   }
    @bottom {
   content: counter(page, lower-roman);
-  font-family: "Cardo","Times New Roman", serif;
+  font-family: "Marcellus SC", serif;
   vertical-align: center;
   border-top: 0.9px solid #000;
   margin-bottom: 20px;
@@ -268,7 +268,7 @@ h1, h2, h3, h4, h5, h6 {
 @page front-matter{
    @bottom {
     content: counter(page, lower-roman);
-    font-family: "Cardo","Times New Roman", serif;
+    font-family: "Marcellus SC", serif;
     text-align: center;
     vertical-align: top;
     border-top: 0.9px solid #000;
