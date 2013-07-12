@@ -293,11 +293,23 @@ div.part-title-wrap > h3.part-number:before {
 .chapter-title-wrap .chapter-number,
 .chapter-title-wrap .chapter-title {
 	display: block;
+	text-transform: uppercase;
+}
+.chapter-title-wrap .chapter-title:after {
+	content:""; 
+  height:1px;
+  background:#000; 
+  width:25%;
+  display:block;
+  margin: 0 auto;
+  margin-top: 20px;
+  margin-bottom: 40px;
 }
 .chapter-title-wrap > .chapter-number {
     font-size: 1.3em;
 	font-weight: normal;
 	padding-right: 10px;
+	margin-bottom: 3em;
 }
 
 
