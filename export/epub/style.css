@@ -3,7 +3,7 @@ This file must validate as CSS 2.01 with absolutely no errors
  + http://jigsaw.w3.org/css-validator/
  + http://idpf.org/epub/20/spec/OPS_2.0.1_draft.htm#Section3.0
 
-  Name: Donham
+  Name: Austen
   Version: 1.1
   Author: PressBooks (Book Oven Inc.)
   Author URI: http://pressbooks.com
@@ -148,38 +148,32 @@ p.bl_indent {
 /* TITLE PAGE
 ======================= */
 #title-page {
-    text-align: right;
+    text-align: center;
+    text-transform: uppercase;
 }
 #title-page > .title {
 	font-size: 2em;
-	margin-top: 30%;
+	margin-top: 10%;
 }
 #title-page > .subtitle {
-	font-size: 1.6em;
+	font-size: 1.2em;
 	margin-top: 1em;
 }
 #title-page > .author {
 	font-size: 1em;
 	font-weight: normal;
-	margin-top: 1em;
-	text-transform: uppercase;	
+	margin-top: 6em;	
 }
 #title-page > .publisher {
-	display: inline-block;
 	font-size: 0.875em;
 	font-weight: normal;
-	margin-bottom: 0;
-}
-#title-page .publisher:after {
-	content: "\25CF";
-	padding-left: 10px;
+	margin-top: 12em;
 }
 #title-page > .publisher-city {
-	display: inline-block;
+	text-transform: capitalize;
 	font-size: 0.875em;
 	font-weight: normal;
 	margin-top: 0;
-	margin-left: 10px;
 }
 
 /* DEDICATION
@@ -194,6 +188,7 @@ p.bl_indent {
 	font-size: 0.7em;
     text-indent: 0;
     margin-bottom: 0.5em;
+    text-align: center;
 }
 
 /*  BODY TITLES
@@ -277,11 +272,11 @@ p.bl_indent {
 #toc > h1 {
     font-size: 1.7em;
 	margin:1em 0 3em;
-	text-align: right;
+	text-align: center;
 }
 .part-number {
 	font-weight: normal;
-	text-align: right;
+	text-align: center;
 }
 div.part-title-wrap > h3.part-number:before {
 	content: "part ";
@@ -292,21 +287,19 @@ div.part-title-wrap > h3.part-number:before {
 }
 .chapter-title-wrap {
     font-size: 1.1em;
-	margin:1.6em 0 4.6em 20%;
-	text-align: right;
+	margin:1.6em auto 4.6em auto;
+	text-align: center;
 }
 .chapter-title-wrap .chapter-number,
 .chapter-title-wrap .chapter-title {
-	display: inline;
+	display: block;
 }
 .chapter-title-wrap > .chapter-number {
     font-size: 1.3em;
 	font-weight: normal;
 	padding-right: 10px;
 }
-.chapter-number:after {
-	content: ".";
-}
+
 
 
 /* TABLE OF CONTENT 
@@ -418,12 +411,13 @@ h2.chapter-subtitle {
 	font-weight: normal;
 	margin-bottom: 2.8em;
     padding-top: 0.2em;	
-	text-align: right;
-	text-transform: uppercase;    
+	text-align: center;
+	font-style: italic;
+	text-transform: capitalize;    
 }
 h2.chapter-author {
 	font-style: normal;
-	text-align: right;
+	text-align: center;
 }
 h2.chapter-subtitle,
 h2.chapter-author {
@@ -573,4 +567,4 @@ aside {
 .index .ugc  p.sub-entry {
 	padding-left:30px;
 }
-  
+ 
