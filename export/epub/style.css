@@ -265,7 +265,7 @@ p.bl_indent {
     margin: 20px 0 -0.5em;
 }
 .part-title {
-	font-size: 1.7em;
+	font-size: 2em;
 }
 .front-matter-number,
 .front-matter-title,
@@ -277,13 +277,15 @@ p.bl_indent {
 .part-number {
 	font-weight: normal;
 	text-align: center;
+	
 }
 div.part-title-wrap > h3.part-number:before {
 	content: "part ";
+	text-transform: uppercase;
+
 }
 .part-title {
-	margin-left: 20%;
-	text-align: right;
+	text-align: center;
 }
 .chapter-title-wrap {
     font-size: 1.1em;
