@@ -266,6 +266,7 @@ p.bl_indent {
 }
 .part-title {
 	font-size: 2em;
+	text-transform: uppercase;
 }
 .front-matter-number,
 .front-matter-title,
