@@ -304,7 +304,7 @@ div.part-title-wrap > h3.part-number:before {
 .chapter-title-wrap .chapter-title:after {
 	content:""; 
   height:1px;
-  background:#000; 
+  border-bottom: 1px solid #000;
   width:25%;
   display:block;
   margin: 0 auto;
